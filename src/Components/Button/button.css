@@ -1,0 +1,25 @@
+.button {
+  border: none;
+  width: 100px;
+  height: 40px;
+  background-color: #0000ff;
+  color: white;
+  border-radius: 10px;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0075ff;
+}
+
+@media screen and (max-width: 700px) {
+  .button {
+    width: 60px;
+    height: 30px;
+    font-size: 14px;
+  }
+}

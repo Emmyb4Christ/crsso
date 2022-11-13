@@ -1,0 +1,43 @@
+.home-botton-div Button {
+  width: 248px;
+  height: 80px;
+  margin-left: 15px;
+  margin-top: 50px;
+  background: #0067f5;
+  box-shadow: 14px 14px 50px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.home-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home-col-1 h3 {
+  width: 822px;
+  height: 405px;
+  font-family: "Poppins";
+  font-weight: 900;
+  font-size: 90px;
+  color: #0067f5;
+  text-shadow: 10px 10px 10px rgba(64, 123, 255, 0.1);
+  padding-left: 15px;
+}
+
+.home-col-1 p {
+  width: 790px;
+  height: 58px;
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 24px;
+  color: #022b69;
+  padding-left: 15px;
+}
+
+.home-col-2 img {
+  width: 649px;
+  height: 702.32px;
+}
