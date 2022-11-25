@@ -1,0 +1,31 @@
+.about-page-component {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-page-component img {
+  width: 162px;
+  height: 162px;
+}
+
+.about-page-component h3 {
+  font-family: "Lexend";
+  font-weight: 500;
+  font-size: 40px;
+  color: #0067f5;
+  line-height: 50px;
+  padding: 15px 0;
+}
+
+.about-page-component p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 2rem;
+  text-align: center;
+  color: #022b69;
+  width: 361px;
+}

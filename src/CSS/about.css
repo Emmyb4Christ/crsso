@@ -1,0 +1,11 @@
+.about-component-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 150px;
+}
+
+.about-component-child2 {
+  margin-top: 250px;
+}

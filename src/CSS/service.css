@@ -1,0 +1,55 @@
+.service-component-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+.service-component-container-col {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 60px;
+}
+
+.service-component-container-col div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.service-col {
+  width: 290px;
+  height: 330px;
+  background: #ffffff;
+  border-radius: 20px;
+}
+
+@media screen and (min-width: 280px) and (max-width: 999px) {
+  .service-component-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .service-component-container-col {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+
+  .service-component-container {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 950px) and (max-width: 1200px) {
+  .service-component-container {
+    display: flex;
+    flex-direction: row;
+  }
+  .service-component-container-col {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+}

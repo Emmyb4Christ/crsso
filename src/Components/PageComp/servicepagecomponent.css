@@ -1,0 +1,22 @@
+.service-component-container img {
+  width: 94px;
+  height: 94px;
+}
+
+.service-component-container h3 {
+  font-family: "Lexend";
+  font-weight: 500;
+  font-size: 24px;
+  color: #0067f5;
+  padding: 20px 0;
+}
+
+.service-component-container p {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.5rem;
+  text-align: center;
+  color: #022b69;
+  width: 264px;
+}

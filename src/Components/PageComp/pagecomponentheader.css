@@ -1,7 +1,7 @@
 .page-component-header-container {
   margin: 50px 0;
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .component-header {
@@ -20,4 +20,25 @@
   font-size: 24px;
   line-height: 29px;
   color: #022b69;
+}
+
+@media screen and (min-width: 280px) and (max-width: 400px) {
+  .component-header {
+    font-size: 30px;
+  }
+  .component-paragraph {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 10px;
+  }
+}
+
+@media screen and (min-width: 401px) and (max-width: 768px) {
+  .component-header {
+    font-size: 40px;
+  }
+  .component-paragraph {
+    font-size: 20px;
+    padding: 10px;
+  }
 }
