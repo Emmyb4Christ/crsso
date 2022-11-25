@@ -41,22 +41,22 @@ const NavBar = () => {
           )}
           {!user && (
             <li>
-              <NavLink to="#about-us">About</NavLink>
+              <NavLink to="/about-us">About</NavLink>
             </li>
           )}
           {!user && (
             <li>
-              <NavLink to="#services">Services</NavLink>
+              <NavLink to="/services">Services</NavLink>
             </li>
           )}
           {!user && (
             <li>
-              <NavLink to="#testimonials">Testimonials</NavLink>
+              <NavLink to="/admission">Admission</NavLink>
             </li>
           )}
           {!user && (
             <li>
-              <NavLink to="#contact-us">Contact</NavLink>
+              <NavLink to="/contact-us">Contact</NavLink>
             </li>
           )}
           {!user && (
@@ -82,22 +82,22 @@ const NavBar = () => {
               )}
               {!user && (
                 <li>
-                  <NavLink to="#about-us">About Us</NavLink>
+                  <NavLink to="/about-us">About Us</NavLink>
                 </li>
               )}
               {!user && (
                 <li>
-                  <NavLink to="#services">Services</NavLink>
+                  <NavLink to="/services">Services</NavLink>
                 </li>
               )}
               {!user && (
                 <li>
-                  <NavLink to="#testimonials">Testimonials</NavLink>
+                  <NavLink to="/Admission">Admission</NavLink>
                 </li>
               )}
               {!user && (
                 <li>
-                  <NavLink to="#contact-us">Contact Us</NavLink>
+                  <NavLink to="/contact-us">Contact Us</NavLink>
                 </li>
               )}
               {!user && (

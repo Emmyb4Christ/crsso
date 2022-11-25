@@ -1,0 +1,28 @@
+.home-component-container {
+  display: flex;
+  align-items: center;
+  width: 630px;
+  height: 163px;
+  background: #ffffff;
+  box-shadow: 3px 3px 66px rgba(0, 0, 0, 0.03);
+}
+
+.home-component-container img {
+  width: 70px;
+  height: 70.42px;
+  margin: 0 20px;
+}
+
+.home-component-container p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: #0066f5;
+}
+
+@media screen and (max-width: 780px) {
+  .home-component-container {
+    width: 300px;
+  }
+}
