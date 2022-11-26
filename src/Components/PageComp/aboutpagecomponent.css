@@ -1,4 +1,5 @@
 .about-page-component {
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -28,4 +29,15 @@
   text-align: center;
   color: #022b69;
   width: 361px;
+}
+
+@media screen and (min-width: 280px) and (max-width: 850px) {
+  .about-page-component h3 {
+    font-size: 30px;
+  }
+
+  .about-page-component p {
+    font-size: 14px;
+    width: 90%;
+  }
 }

@@ -31,6 +31,11 @@
   margin-top: 20px;
 }
 
+.footer-col-1-2-div {
+  display: flex;
+  gap: 70px;
+}
+
 .footer-icon-container img {
   width: 33px;
   height: 33px;
