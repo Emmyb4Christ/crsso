@@ -1,0 +1,45 @@
+.testimonial-component-div {
+  width: 28%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 532px;
+  background: #ffffff;
+  padding: 0 10px;
+}
+
+.testimonial-component-div p {
+  width: 378px;
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 2.5rem;
+  color: #000000;
+}
+
+.testimonial-component-div h3 {
+  font-family: "Lexend";
+  font-weight: 500;
+  font-size: 36px;
+  color: #0066f5;
+  padding-top: 70px;
+}
+
+@media screen and (min-width: 280px) and (max-width: 1200px) {
+  .testimonial-component-div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .testimonial-component-div p {
+    width: 90%;
+    font-size: 14px;
+  }
+
+  .testimonial-component-div h3 {
+    font-size: 28px;
+  }
+}

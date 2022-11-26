@@ -5,6 +5,7 @@ import HomeComponent from "../Components/PageComp/HomeComponent";
 import PageComponentHeader from "../Components/PageComp/PageComponentHeader";
 import Footer from "./Footer";
 import "../CSS/home.css";
+import Testimonial from "./Testimonial";
 
 const Home = () => {
   return (
@@ -66,6 +67,9 @@ const Home = () => {
             FirstParaName="A system that is crafted for continous improvement"
           />
         </div>
+      </div>
+      <div className="testimonial-home-div">
+        <Testimonial />
       </div>
       <Footer />
     </div>
