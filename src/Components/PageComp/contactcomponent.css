@@ -1,0 +1,31 @@
+.contact-component-div {
+  width: 256px;
+  height: 255px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  border-radius: 20px;
+}
+
+.contact-component-div h3 {
+  font-family: "Lexend";
+  font-weight: 700;
+  font-size: 20px;
+  color: #0066f5;
+}
+
+.contact-component-div p {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 14px;
+  color: #022b69;
+}
+
+@media screen and (min-width: 280px) and (max-width: 800px) {
+  .contact-component-div {
+    width: 80%;
+  }
+}
