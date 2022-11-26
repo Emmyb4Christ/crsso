@@ -24,7 +24,7 @@
   border-radius: 20px;
 }
 
-@media screen and (min-width: 280px) and (max-width: 999px) {
+@media screen and (min-width: 280px) and (max-width: 850px) {
   .service-component-container {
     display: flex;
     flex-direction: row;
@@ -42,7 +42,7 @@
   }
 }
 
-@media screen and (min-width: 950px) and (max-width: 1200px) {
+@media screen and (min-width: 1000px) and (max-width: 1200px) {
   .service-component-container {
     display: flex;
     flex-direction: row;

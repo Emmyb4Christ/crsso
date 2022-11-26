@@ -31,22 +31,24 @@ const Footer = () => {
             />
           </div>
         </div>
-        <div className="footer-col-2">
-          <h3>Useful Links</h3>
-          <ul className="footer-col-2-items">
-            <NavLink to="/terms-and-conditions">F.A.Q</NavLink>
-            <NavLink to="terms-and-conditions">Cookies</NavLink>
-            <NavLink to="terms-and-conditions">Terms of Services</NavLink>
-            <NavLink to="terms-and-conditions">Support</NavLink>
-          </ul>
-        </div>
-        <div className="footer-col-3">
-          <h3>Quick Links</h3>
-          <ul className="footer-col-3-items">
-            <NavLink to="/admission">Admission</NavLink>
-            <NavLink to="/admission">Application Form</NavLink>
-            <NavLink to="/curriculum">Curriculum</NavLink>
-          </ul>
+        <div className="footer-col-1-2-div">
+          <div className="footer-col-2">
+            <h3>Useful Links</h3>
+            <ul className="footer-col-2-items">
+              <NavLink to="/terms-and-conditions">F.A.Q</NavLink>
+              <NavLink to="terms-and-conditions">Cookies</NavLink>
+              <NavLink to="terms-and-conditions">Terms of Services</NavLink>
+              <NavLink to="terms-and-conditions">Support</NavLink>
+            </ul>
+          </div>
+          <div className="footer-col-3">
+            <h3>Quick Links</h3>
+            <ul className="footer-col-3-items">
+              <NavLink to="/admission">Admission</NavLink>
+              <NavLink to="/admission">Application Form</NavLink>
+              <NavLink to="/curriculum">Curriculum</NavLink>
+            </ul>
+          </div>
         </div>
       </div>
     </div>

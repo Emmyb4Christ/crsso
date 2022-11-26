@@ -1,4 +1,4 @@
-.home-botton-div Button {
+.home-button-div Button {
   width: 248px;
   height: 80px;
   margin-left: 15px;
@@ -11,36 +11,36 @@
   font-size: 28px;
 }
 
-.home-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.home-button-div {
+  width: 70%;
+  padding-top: 50px;
 }
 
-.home-col-1 h3 {
-  width: 822px;
-  height: 405px;
+.home-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 70px;
+}
+
+.home-container h3 {
+  width: 70%;
   font-family: "Poppins";
   font-weight: 900;
   font-size: 90px;
   color: #0067f5;
   text-shadow: 10px 10px 10px rgba(64, 123, 255, 0.1);
-  padding-left: 15px;
 }
 
-.home-col-1 p {
-  width: 790px;
+.home-container p {
+  width: 70%;
   height: 58px;
   font-family: "Montserrat";
   font-weight: 500;
   font-size: 24px;
   color: #022b69;
-  padding-left: 15px;
-}
-
-.home-col-2 img {
-  width: 520px;
-  height: 550px;
+  line-height: 3rem;
 }
 
 .approved-image {
@@ -64,9 +64,45 @@
   flex-direction: column;
 }
 
-@media screen and (max-width: 780px) {
-  .home-col-3 {
-    flex-direction: column;
-    gap: 40px;
+@media screen and (min-width: 280px) and (max-width: 768px) {
+  .home-container {
+    margin-top: 30px;
+  }
+  .home-container h3 {
+    font-size: 20px;
+    width: 80%;
+  }
+
+  .home-container p {
+    width: 80%;
+    line-height: 2rem;
+    font-size: 14px;
+    padding-top: 10px;
+  }
+
+  .home-button-div {
+    width: 80%;
+  }
+
+  .home-button-div Button {
+    width: 150px;
+    height: 60px;
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 501px) and (max-width: 768px) {
+  .home-container h3 {
+    font-size: 30px;
+  }
+
+  .home-container p {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 780px) and (max-width: 1000px) {
+  .home-container h3 {
+    font-size: 38px;
   }
 }
