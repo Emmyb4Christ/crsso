@@ -1,7 +1,7 @@
 import React from "react";
 
 const Admission = () => {
-  return <div>Testimonial</div>;
+  return <div>Admmision</div>;
 };
 
 export default Admission;

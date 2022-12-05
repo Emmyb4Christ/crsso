@@ -1,0 +1,45 @@
+.profile-container {
+  background-color: #042142;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+.go-to-dashboard {
+  text-align: center;
+  padding: 50px 0;
+}
+.go-to-dashboard a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+  font-family: "Poppins";
+  font-weight: 700;
+}
+
+.go-to-dashboard a:hover {
+  color: #0b10ff;
+}
+
+table {
+  width: 100%;
+  display: flex;
+  background: #ffffff;
+  gap: 80px;
+}
+
+th,
+td {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin: 35px;
+  font-size: 20px;
+}
+
+td {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Lexend";
+  color: #121213;
+  margin: 39px;
+}
