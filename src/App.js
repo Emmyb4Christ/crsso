@@ -5,7 +5,6 @@ import { AuthContext } from "./Components/Context/AuthContext";
 import Home from "./Pages/Home";
 import About from "./Pages/About";
 import Service from "./Pages/Service";
-import Admission from "./Pages/Admission";
 import Contact from "./Pages/Contact";
 import LogIn from "./Pages/LogIn";
 import Dashboard from "./Dashboard/Dashboard";
@@ -24,8 +23,7 @@ function App() {
               <>
                 <Route path="/" element={<Home />} />
                 <Route path="/about-us" element={<About />} />
-                <Route path="/services" element={<Service />} />
-                <Route path="/admission" element={<Admission />} />
+                <Route path="/services" element={<Service />} />{" "}
                 <Route path="/contact-us" element={<Contact />} />
                 <Route path="/log-in" element={<LogIn />} />
               </>

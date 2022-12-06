@@ -1,5 +1,5 @@
 .login-container {
-  background-color: #1c2e7a;
+  background: linear-gradient(45deg, #241b57, #2c1a94);
   min-height: 100vh;
   min-width: 100vw;
   display: flex;
@@ -25,7 +25,7 @@
 
 .login-header h1 {
   text-transform: uppercase;
-  color: #71748d;
+  color: #021080;
   font-size: 30px;
   font-weight: 700;
 }

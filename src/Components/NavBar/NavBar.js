@@ -49,11 +49,7 @@ const NavBar = () => {
               <NavLink to="/services">Services</NavLink>
             </li>
           )}
-          {!user && (
-            <li>
-              <NavLink to="/admission">Admission</NavLink>
-            </li>
-          )}
+
           {!user && (
             <li>
               <NavLink to="/contact-us">Contact</NavLink>
@@ -88,11 +84,6 @@ const NavBar = () => {
               {!user && (
                 <li>
                   <NavLink to="/services">Services</NavLink>
-                </li>
-              )}
-              {!user && (
-                <li>
-                  <NavLink to="/Admission">Admission</NavLink>
                 </li>
               )}
               {!user && (
