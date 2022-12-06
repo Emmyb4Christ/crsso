@@ -42,6 +42,18 @@
   }
 }
 
+@media screen and (min-width: 280px) and (max-width: 500px) {
+  .service-component-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .service-component-container-col {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 @media screen and (min-width: 1000px) and (max-width: 1200px) {
   .service-component-container {
     display: flex;
